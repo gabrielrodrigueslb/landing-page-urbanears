@@ -37,6 +37,13 @@ header{
     font-size: 18px;
     display: inline-block;
     padding: 10px 0;
+    transition: 0.2s;
+}
+
+.menu li a:hover{
+    color: #01BBFF;
+    transition: 0.2s;
+    
 }
 
 
@@ -73,3 +80,8 @@ header.rolagem{
     background: #141414;
 } */
 
+@media (max-width:800px){
+    header{
+        padding: 40px 4%;
+    }
+}

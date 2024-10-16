@@ -13,9 +13,10 @@ main{
 
 .main-conteudo{
     display: flex;
-    margin-top: 200px;
+    margin-top: 150px;
     gap: 30px;
     padding: 0 40px;
+    align-items: center;
 }
 
 .info h3 {
@@ -30,6 +31,7 @@ main{
     font-size: 2.72rem;
     line-height: 3.15rem;
     margin-bottom: 1.95rem;
+    white-space: nowrap;
 }
 
 .desconto{
@@ -64,4 +66,111 @@ main{
     background: #01BBFF;
     border-radius: 35px;
     display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.info a:hover{
+    background: #fff;
+    color: #01BBFF;
+    transition: 0.3s;
+    
+}
+
+
+.fone{
+    height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* media queries */
+
+@media (max-width:1320px){
+    .main-conteudo{
+        margin-top: 80px;
+    }
+    
+    .fone{
+        width: 50vw;
+        height: 100%;
+    }
+
+    .info p{
+        margin-bottom: 2.78rem;
+    }
+}
+
+@media (max-width:1040px){
+
+    .main-conteudo{
+        margin-top: 200px;
+        flex-direction: column;
+    }
+
+    .info{
+        text-align: center;
+    }
+
+    .fone{
+        object-fit: cover;
+    }
+
+    .info p{
+        margin-bottom: 2.78rem;
+    }
+}
+
+@media (max-width:800px){
+
+
+    .main-conteudo{
+        margin-top: 180px;
+        flex-direction: column;
+    }
+
+    .info{
+        text-align: center;
+    }
+
+    .info h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .info h2{
+        font-size: 2.32rem;
+        line-height: 3.15rem;
+        margin-bottom: 1.95rem;
+        white-space: nowrap;
+    }
+    
+    .desconto{
+        font-size: 2.9rem;
+    }
+    
+    .info h1 {
+        font-size: 2.12rem;
+        margin-bottom: 3.15rem;
+    }
+    
+    .info h1 span{
+        font-size: 2.724rem;
+    }
+    
+    .info p{
+        font-size: 1rem;
+        margin-bottom: 2.78rem;
+        max-width: 400px
+    }
+    
+    .info a{
+        font-size: 1.4rem;
+        padding: 16px 50px;
+        border-radius: 35px;
+        margin-bottom: 50px;
+
+    }
+
 }
