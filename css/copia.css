@@ -1,0 +1,72 @@
+.main-conteudo{
+    padding-top: calc(1vh + 160px);
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.info{
+    color: #3e3d3d;
+    flex-wrap: nowrap;
+}
+
+.info h3 {
+    text-transform: uppercase;
+    font-size: 1.23rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.info h2{
+    font-weight: 300;
+    font-size: 2.62rem;
+    line-height: 3.15rem;
+    margin-bottom: 1.95rem;
+}
+
+.info h2 span{
+    font-weight: bold;
+    font-size: 3.38rem;
+}
+
+
+.info h1 {
+    font-size: 2.52rem;
+    color: #aac0bf;
+    margin-bottom: 3.15rem;
+}
+
+.info h1 span{
+    font-family: "cabin";
+    font-size: 3.024rem;
+    color: #3e3d3d;
+}
+
+.info p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2.58rem;
+}
+
+.info a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.51rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 16px 48px;
+    background: #01bbff;
+    border-radius: 35px;
+}
+
+
+
+
+/* MENU HAMBURGUER JAVASCRIPT */
+/* const hamburguer = document.querySelector(".hamburguer")
+const nav = document.querySelector(".nav")
+
+hamburguer.addEventListener("click" , () => nav.classList.toggle("active")) */

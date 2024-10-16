@@ -1,0 +1,75 @@
+/* HEADER */
+
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    transition: 0.1s;
+    font-family: 'Cabin';
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    color: #141414;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #141414;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+
+header.rolagem{
+    background-color: #e3eeff;
+    transition: 0.2s;
+    padding: 20px 4%;
+
+
+}
+
+.hamburguer{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #141414;
+    cursor: pointer;
+}
+
+.hamburguer::before,
+.hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #141414;
+}
+
+/* .hamburguer::before, .hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #141414;
+} */
+
