@@ -1,6 +1,8 @@
 /* HOME */
 body{
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    background: rgb(227,238,255);
+    background: linear-gradient(180deg, rgba(227,238,255,1) 0%, rgba(227,238,255,1) 82%, rgba(243,231,233,1) 100%);
+    min-width: 100vw;
 }
 main{
     color: #3e3d3d;
@@ -9,6 +11,7 @@ main{
 
 .main-container{
     align-content: center;
+
 }
 
 .main-conteudo{

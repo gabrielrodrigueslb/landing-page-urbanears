@@ -1,0 +1,129 @@
+.opinioes-bg{
+    background: rgb(243,231,233);
+    background: linear-gradient(180deg, rgba(243,231,233,1) 0%, rgba(227,238,255,1) 82%, rgba(227,238,255,1) 100%);
+    min-height: 100vh;
+}
+
+.opinioes-container{
+    padding: 90px 0;
+}
+
+.opinioes-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.opinioes{
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    margin-bottom: 80px;
+    
+}
+
+.opinioes img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.342);
+}
+
+.opinioes-conteudo h2{
+    font-size: 3.8rem;
+    margin-bottom: 70px;
+    font-weight: 500;
+}
+
+.opinioes-conteudo p{
+    font-size: 1.4rem;
+    margin-bottom:84px;
+    font-weight: 500;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.65rem;
+    padding: 15px 47px;
+    color: #fff;
+    background: #01BBFF;
+    border-radius: 21px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+}
+
+.btn:hover{
+    background: #fff;
+    color: #01BBFF;
+    transition: 0.3s;
+    
+}
+
+
+
+@media (max-width:1400px){
+    .opinioes{
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .opinioes::-webkit-scrollbar{
+        display: none;
+    }
+
+}
+@media (max-width:1200px){
+    .opinioes-conteudo h2{
+        font-size: 3.5rem;
+        margin-bottom: 70px;
+    }
+    
+    .opinioes-conteudo p{
+        font-size: 1.2rem;
+        margin-bottom:84px;
+
+    }
+    
+    .btn{
+        font-size: 1.35rem;
+        padding: 15px 47px;
+    }
+}
+@media (max-width:1030px){
+    .opinioes-conteudo h2{
+        font-size: 3.2rem;
+        margin-bottom: 70px;
+    }
+    
+    .opinioes-conteudo p{
+        font-size: 1.1rem;
+        margin-bottom:84px;
+
+    }
+    
+    .btn{
+        font-size: 1.25rem;
+        padding: 15px 47px;
+    }
+
+    .opinioes img{
+        width: 200px;
+        height: 210.42px;
+    }
+}
+@media (max-width:895px){
+    .opinioes-conteudo h2{
+        font-size: 2.7rem;
+        margin-bottom: 70px;
+    }
+    
+    .opinioes-conteudo p{
+        font-size: 1.1rem;
+        margin-bottom:84px;
+
+    }
+    
+    .btn{
+        font-size: 1.25rem;
+        padding: 15px 47px;
+    }
+}
