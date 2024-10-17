@@ -63,8 +63,15 @@ header.rolagem{
         padding: 40px 4%;
     }
 
+}
+
+@media (max-width:600px){
     .navbar{
         flex-direction: column;
+    }
+
+    .menu{
+        gap: 28px;
     }
 
     .menu li{
@@ -72,6 +79,7 @@ header.rolagem{
     }
 
     .menu li a{
-        font-size: 1rem;
+        font-size: 0.9rem;
+        padding: 10px 0;
     }
 }
