@@ -2,7 +2,6 @@
 body{
     background: rgb(227,238,255);
     background: linear-gradient(180deg, rgba(227,238,255,1) 0%, rgba(227,238,255,1) 82%, rgba(243,231,233,1) 100%);
-    min-width: 100vw;
 }
 main{
     color: #3e3d3d;
@@ -17,7 +16,7 @@ main{
     display: flex;
     margin-top: 150px;
     gap: 30px;
-    padding: 0 40px;
+    padding: 0 30px;
     align-items: center;
 }
 
