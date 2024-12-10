@@ -57,6 +57,12 @@ header.rolagem{
 
 
 
+.desativado {
+    display: none;
+}
+
+
+
 /* media query */
 @media (max-width:800px){
     header{
@@ -66,9 +72,6 @@ header.rolagem{
 }
 
 @media (max-width:600px){
-    .navbar{
-        flex-direction: column;
-    }
 
     .menu{
         gap: 28px;
